@@ -22,21 +22,32 @@
     color: black;
 }
 
+
+.header-right {
+    float: right;
+    
+}
+
 .header {
     overflow: hidden;
-    padding: 20px 10px;
+    background-color: #f1f1f1;
+    padding:10px 5px;
+    flex-wrap: wrap;
 }
-
-.header a {
+  
+.logo {
     float: left;
     text-align: center;
-    padding: 12px;
     text-decoration: none;
     font-size: 18px; 
-    line-height: 25px;
-    border-radius: 4px;
+    line-height: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: none;
+    align-items: center;
 }
 
+<<<<<<< HEAD
 .header-right {
     float: right;
 }
@@ -48,3 +59,14 @@
     transform:translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%)
 }
+=======
+
+
+    
+   
+
+
+
+
+
+>>>>>>> e551dbf5ceda1efe91ec2e0b7c0115125dd88ea6
