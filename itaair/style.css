@@ -30,7 +30,6 @@
 
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
     padding:10px 5px;
     flex-wrap: wrap;
 }
@@ -47,26 +46,18 @@
     align-items: center;
 }
 
-<<<<<<< HEAD
+
 .header-right {
     float: right;
 }
 
 .display-middle {
     position:absolute;
-    top:50%;
+    top:40%;
     left:50%;
     transform:translate(-50%,-50%);
-    -ms-transform:translate(-50%,-50%)
+    -ms-transform:translate(-50%,-50%);
+    width: 100%;
+    background-color: white;
 }
-=======
 
-
-    
-   
-
-
-
-
-
->>>>>>> e551dbf5ceda1efe91ec2e0b7c0115125dd88ea6
